@@ -88,5 +88,5 @@ func main() {
 	err = pinger.Run()
 	if err != nil {
 		fmt.Println("Failed to ping target host:", err)
-	}
+	} 
 }
